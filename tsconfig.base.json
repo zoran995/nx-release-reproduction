@@ -21,6 +21,9 @@
       ],
       "@zoran995/sdk": ["packages/sdk/src/index.ts"],
       "@zoran995/settings": ["libs/modules/settings/main/src/index.ts"],
+      "@zoran995/settings-shared": [
+        "libs/modules/settings/shared/src/index.ts"
+      ],
       "@zoran995/settings-users": ["libs/modules/settings/users/src/index.ts"]
     }
   },
