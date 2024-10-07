@@ -20,7 +20,8 @@
         "libs/infrastructure/common/src/index.ts"
       ],
       "@zoran995/sdk": ["packages/sdk/src/index.ts"],
-      "@zoran995/settings": ["libs/modules/settings/main/src/index.ts"]
+      "@zoran995/settings": ["libs/modules/settings/main/src/index.ts"],
+      "@zoran995/settings-users": ["libs/modules/settings/users/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
