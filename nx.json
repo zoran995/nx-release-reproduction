@@ -70,5 +70,27 @@
         "unitTestRunner": "vitest"
       }
     }
+  },
+  "release": {
+    "projects": ["*"],
+    "projectsRelationship": "independent",
+    "version": {
+      "conventionalCommits": true,
+      "generatorOptions": {
+        "updateDependents": "auto",
+        "skipLockFileUpdate": true,
+        "fallbackCurrentVersionResolver": "disk"
+      }
+    },
+    "releaseTagPattern": "{projectName}@{version}",
+    "changelog": {
+      "automaticFromRef": true,
+      "workspaceChangelog": false,
+      "projectChangelogs": {
+        "renderOptions": {
+          "authors": false
+        }
+      }
+    }
   }
 }
