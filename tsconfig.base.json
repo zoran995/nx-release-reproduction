@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@zoran995/core-ui": ["packages/core-ui/src/index.ts"],
       "@zoran995/sdk": ["packages/sdk/src/index.ts"]
     }
   },
