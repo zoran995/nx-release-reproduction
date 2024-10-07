@@ -1,0 +1,11 @@
+{
+  "name": "@zoran995/settings",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@zoran995/core-ui": "*",
+    "@zoran995/settings-shared": "*",
+    "@zoran995/settings-users": "*",
+    "@zoran995/sdk": "*"
+  }
+}

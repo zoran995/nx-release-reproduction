@@ -1,0 +1,11 @@
+{
+  "name": "@zoran995/frontend",
+  "version": "0.0.1",
+  "type": "module",
+  "dependencies": {
+    "@zoran995/core-ui": "*",
+    "@zoran995/settings": "*",
+    "@zoran995/infrastructure-common": "*",
+    "@zoran995/platform-sdk-wrapper": "*"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "name": "@nx-release-reproduction/source",
+  "name": "@zoran995/source",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {},
@@ -67,6 +67,7 @@
     "webpack-cli": "^5.1.4"
   },
   "workspaces": [
+    "libs/**",
     "packages/*"
   ]
 }
