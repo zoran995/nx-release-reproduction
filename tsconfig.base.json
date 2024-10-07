@@ -19,7 +19,8 @@
       "@zoran995/infrastructure-common": [
         "libs/infrastructure/common/src/index.ts"
       ],
-      "@zoran995/sdk": ["packages/sdk/src/index.ts"]
+      "@zoran995/sdk": ["packages/sdk/src/index.ts"],
+      "@zoran995/settings": ["libs/modules/settings/main/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
